@@ -1,0 +1,31 @@
+{
+  "name": "effect-sql-binary-issue-repro",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@effect/platform": "^0.80.1",
+    "@effect/platform-node": "^0.76.1",
+    "@effect/sql": "^0.33.1",
+    "@effect/sql-mysql2": "^0.34.1",
+    "@testcontainers/mysql": "^10.21.0",
+    "effect": "^3.14.1"
+  },
+  "devDependencies": {
+    "@effect/language-service": "^0.4.0",
+    "@types/node": "^22.13.11",
+    "typescript": "^5.8.2"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "cpu-features",
+      "ssh2"
+    ]
+  }
+}
